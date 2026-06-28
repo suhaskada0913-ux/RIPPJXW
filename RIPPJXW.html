@@ -1,0 +1,636 @@
+<p>
+    &lt;!DOCTYPE html&gt;
+</p>
+<p>
+    &lt;html lang="en"&gt;
+</p>
+<p>
+    &lt;head&gt;
+</p>
+<p>
+    &lt;meta charset="UTF-8"&gt;
+</p>
+<p>
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+</p>
+<p>
+    &lt;title&gt;RIPPJXW | Brazilian Phonk Producer&lt;/title&gt;
+</p>
+<p>
+    &lt;link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&amp;display=swap" rel="stylesheet"&gt;
+</p>
+<p>
+    &lt;style&gt;
+</p>
+<p>
+    *{
+</p>
+<p>
+        margin:0;
+</p>
+<p>
+        padding:0;
+</p>
+<p>
+        box-sizing:border-box;
+</p>
+<p>
+    }
+</p>
+<p>
+    body{
+</p>
+<p>
+        font-family:'Space Grotesk',sans-serif;
+</p>
+<p>
+        background:#050505;
+</p>
+<p>
+        color:white;
+</p>
+<p>
+        overflow-x:hidden;
+</p>
+<p>
+    }
+</p>
+<p>
+    body::before{
+</p>
+<p>
+        content:"";
+</p>
+<p>
+        position:fixed;
+</p>
+<p>
+        inset:0;
+</p>
+<p>
+        background:
+</p>
+<p>
+        radial-gradient(circle at top,#7300ff33,transparent 50%),
+</p>
+<p>
+        radial-gradient(circle at bottom,#00e1ff22,transparent 40%);
+</p>
+<p>
+        z-index:-1;
+</p>
+<p>
+    }
+</p>
+<p>
+    nav{
+</p>
+<p>
+        display:flex;
+</p>
+<p>
+        justify-content:space-between;
+</p>
+<p>
+        align-items:center;
+</p>
+<p>
+        padding:25px 10%;
+</p>
+<p>
+        backdrop-filter:blur(15px);
+</p>
+<p>
+        position:sticky;
+</p>
+<p>
+        top:0;
+</p>
+<p>
+    }
+</p>
+<p>
+    .logo{
+</p>
+<p>
+        font-size:28px;
+</p>
+<p>
+        font-weight:700;
+</p>
+<p>
+        letter-spacing:3px;
+</p>
+<p>
+    }
+</p>
+<p>
+    nav a{
+</p>
+<p>
+        color:white;
+</p>
+<p>
+        text-decoration:none;
+</p>
+<p>
+        margin-left:30px;
+</p>
+<p>
+        transition:.3s;
+</p>
+<p>
+    }
+</p>
+<p>
+    nav a:hover{
+</p>
+<p>
+        color:#9d4dff;
+</p>
+<p>
+    }
+</p>
+<p>
+    .hero{
+</p>
+<p>
+        height:100vh;
+</p>
+<p>
+        display:flex;
+</p>
+<p>
+        justify-content:center;
+</p>
+<p>
+        align-items:center;
+</p>
+<p>
+        flex-direction:column;
+</p>
+<p>
+        text-align:center;
+</p>
+<p>
+        padding:20px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .hero h1{
+</p>
+<p>
+        font-size:72px;
+</p>
+<p>
+        letter-spacing:6px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .hero p{
+</p>
+<p>
+        margin-top:20px;
+</p>
+<p>
+        color:#cfcfcf;
+</p>
+<p>
+        max-width:700px;
+</p>
+<p>
+        font-size:20px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .buttons{
+</p>
+<p>
+        margin-top:40px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .btn{
+</p>
+<p>
+        display:inline-block;
+</p>
+<p>
+        padding:15px 35px;
+</p>
+<p>
+        margin:10px;
+</p>
+<p>
+        border-radius:40px;
+</p>
+<p>
+        text-decoration:none;
+</p>
+<p>
+        color:white;
+</p>
+<p>
+        transition:.3s;
+</p>
+<p>
+        font-weight:600;
+</p>
+<p>
+    }
+</p>
+<p>
+    .primary{
+</p>
+<p>
+        background:#7b2cff;
+</p>
+<p>
+    }
+</p>
+<p>
+    .primary:hover{
+</p>
+<p>
+        background:#9855ff;
+</p>
+<p>
+    }
+</p>
+<p>
+    .secondary{
+</p>
+<p>
+        border:2px solid white;
+</p>
+<p>
+    }
+</p>
+<p>
+    .secondary:hover{
+</p>
+<p>
+        background:white;
+</p>
+<p>
+        color:black;
+</p>
+<p>
+    }
+</p>
+<p>
+    section{
+</p>
+<p>
+        padding:100px 12%;
+</p>
+<p>
+    }
+</p>
+<p>
+    h2{
+</p>
+<p>
+        font-size:40px;
+</p>
+<p>
+        margin-bottom:25px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .about p{
+</p>
+<p>
+        max-width:850px;
+</p>
+<p>
+        line-height:1.8;
+</p>
+<p>
+        color:#cccccc;
+</p>
+<p>
+    }
+</p>
+<p>
+    .spotify{
+</p>
+<p>
+        margin-top:40px;
+</p>
+<p>
+        display:flex;
+</p>
+<p>
+        justify-content:center;
+</p>
+<p>
+    }
+</p>
+<p>
+    iframe{
+</p>
+<p>
+        border-radius:16px;
+</p>
+<p>
+    }
+</p>
+<p>
+    footer{
+</p>
+<p>
+        text-align:center;
+</p>
+<p>
+        padding:50px;
+</p>
+<p>
+        color:#888;
+</p>
+<p>
+    }
+</p>
+<p>
+    .socials{
+</p>
+<p>
+        display:flex;
+</p>
+<p>
+        justify-content:center;
+</p>
+<p>
+        gap:20px;
+</p>
+<p>
+        margin-top:30px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .socials a{
+</p>
+<p>
+        color:white;
+</p>
+<p>
+        text-decoration:none;
+</p>
+<p>
+        font-size:18px;
+</p>
+<p>
+    }
+</p>
+<p>
+    .socials a:hover{
+</p>
+<p>
+        color:#9d4dff;
+</p>
+<p>
+    }
+</p>
+<p>
+    @media(max-width:700px){
+</p>
+<p>
+    .hero h1{
+</p>
+<p>
+    font-size:46px;
+</p>
+<p>
+    }
+</p>
+<p>
+    h2{
+</p>
+<p>
+    font-size:32px;
+</p>
+<p>
+    }
+</p>
+<p>
+    }
+</p>
+<p>
+    &lt;/style&gt;
+</p>
+<p>
+    &lt;/head&gt;
+</p>
+<p>
+    &lt;body&gt;
+</p>
+<p>
+    &lt;nav&gt;
+</p>
+<p>
+    &lt;div class="logo"&gt;RIPPJXW&lt;/div&gt;
+</p>
+<p>
+    &lt;div&gt;
+</p>
+<p>
+    &lt;a href="#about"&gt;About&lt;/a&gt;
+</p>
+<p>
+    &lt;a href="#music"&gt;Music&lt;/a&gt;
+</p>
+<p>
+    &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+</p>
+<p>
+    &lt;/div&gt;
+</p>
+<p>
+    &lt;/nav&gt;
+</p>
+<p>
+    &lt;section class="hero"&gt;
+</p>
+<p>
+    &lt;h1&gt;RIPPJXW&lt;/h1&gt;
+</p>
+<p>
+    &lt;p&gt;
+</p>
+<p>
+    Brazilian Phonk Producer • United States
+</p>
+<p>
+    &lt;/p&gt;
+</p>
+<p>
+    &lt;div class="buttons"&gt;
+</p>
+<p>
+    &lt;a class="btn primary"
+</p>
+<p>
+    href="https://open.spotify.com/album/3XJsWU5KJKRWvVakjOnqT2?si=sdM0pn8TR8ScpmGshtQTdA"
+</p>
+<p>
+    target="_blank"&gt;
+</p>
+<p>
+    Listen Now
+</p>
+<p>
+    &lt;/a&gt;
+</p>
+<p>
+    &lt;a class="btn secondary"
+</p>
+<p>
+    href="#about"&gt;
+</p>
+<p>
+    About
+</p>
+<p>
+    &lt;/a&gt;
+</p>
+<p>
+    &lt;/div&gt;
+</p>
+<p>
+    &lt;/section&gt;
+</p>
+<p>
+    &lt;section id="about" class="about"&gt;
+</p>
+<p>
+    &lt;h2&gt;About&lt;/h2&gt;
+</p>
+<p>
+    &lt;p&gt;
+</p>
+<p>
+    RIPPJXW is a U.S.-based Brazilian Phonk producer creating aggressive bass-driven music inspired by Brazil's underground sound. Combining distorted 808s, dark atmospheres, and energetic rhythms, every release is designed for high-energy playlists, gaming, car edits, and late-night listening.
+</p>
+<p>
+    &lt;/p&gt;
+</p>
+<p>
+    &lt;/section&gt;
+</p>
+<p>
+    &lt;section id="music"&gt;
+</p>
+<p>
+    &lt;h2&gt;Latest Release&lt;/h2&gt;
+</p>
+<p>
+    &lt;div class="spotify"&gt;
+</p>
+<p>
+    &lt;iframe
+</p>
+<p>
+    style="border-radius:12px"
+</p>
+<p>
+    src="https://open.spotify.com/embed/album/3XJsWU5KJKRWvVakjOnqT2?utm_source=generator"
+</p>
+<p>
+    width="100%"
+</p>
+<p>
+    height="352"
+</p>
+<p>
+    frameborder="0"
+</p>
+<p>
+    allowfullscreen=""
+</p>
+<p>
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+</p>
+<p>
+    loading="lazy"&gt;
+</p>
+<p>
+    &lt;/iframe&gt;
+</p>
+<p>
+    &lt;/div&gt;
+</p>
+<p>
+    &lt;/section&gt;
+</p>
+<p>
+    &lt;section id="contact"&gt;
+</p>
+<p>
+    &lt;h2&gt;Contact&lt;/h2&gt;
+</p>
+<p>
+    &lt;p&gt;
+</p>
+<p>
+    Business Inquiries
+</p>
+<p>
+    &lt;/p&gt;
+</p>
+<p>
+    &lt;br&gt;
+</p>
+<p>
+    &lt;p&gt;
+</p>
+<p>
+    📧 suhaskada0913@gmail.com
+</p>
+<p>
+    &lt;/p&gt;
+</p>
+<p>
+    &lt;div class="socials"&gt;
+</p>
+<p>
+    &lt;a href="https://open.spotify.com/artist/5c1I226aAzxUeZS6Sf4eic?si=clzp23VWTiei1njRX13luQ"&gt;Spotify&lt;/a&gt;
+</p>
+<p>
+    &lt;a href="www.tiktok.com/@skchilz"&gt;TikTok&lt;/a&gt;
+</p>
+<p>
+    &lt;a href="#"&gt;YouTube&lt;/a&gt;
+</p>
+<p>
+    &lt;/div&gt;
+</p>
+<p>
+    &lt;/section&gt;
+</p>
+<p>
+    &lt;footer&gt;
+</p>
+<p>
+    © 2026 RIPPJXW • All Rights Reserved
+</p>
+<p>
+    &lt;/footer&gt;
+</p>
+<p>
+    &lt;/body&gt;
+</p>
+<p>
+    &lt;/html&gt;
+</p>
